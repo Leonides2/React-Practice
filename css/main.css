@@ -59,3 +59,24 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+
+
+@media (max-width: 950px) {
+    #header {
+      flex-direction: row;
+      height: auto;
+    }
+
+    .card_container{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        height: 70vh;
+        padding: 5% 12% 5% 12%;
+        margin: 5%;
+        border-radius: 1em;
+        scrollbar-color: rgba(0, 0, 0, .2) rgba(0, 0, 0, 0);
+    }
+
+  }
+  
