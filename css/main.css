@@ -19,11 +19,21 @@ body{
 }
 #footer{
     grid-row: 3/4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 #title{
     font-family: "Roboto", sans-serif;
     font-weight: 100;
     font-style: normal;
+}
+#credit{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+    align-content: center;
 }
 
 
