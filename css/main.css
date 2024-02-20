@@ -77,6 +77,16 @@ body{
         border-radius: 1em;
         scrollbar-color: rgba(0, 0, 0, .2) rgba(0, 0, 0, 0);
     }
+    .pokemon_card{
+        display: flex;
+        flex-direction: column;
+        justify-items: center;
+        background-color: azure;
+        border-radius: 20px;
+        height: fit-content;
+        width: 25vh;
+    }
+    
 
   }
   
