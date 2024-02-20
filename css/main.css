@@ -1,0 +1,61 @@
+body{
+    background-color: white;
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 10vh 1fr 15vh;
+    scrollbar-color: rgba(0, 0, 0, .5) rgba(0, 0, 0, 0);
+    scrollbar-width: thin;
+}
+
+
+#header{
+    grid-row: 1/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    grid-row: 2/3;
+}
+#footer{
+    grid-row: 3/4;
+}
+#title{
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+
+.card_container{
+    background-color: burlywood;
+    display: flex;
+    justify-content: space-between;
+    height: 70vh;
+    flex-wrap: wrap;
+    padding: 5%;
+    margin: 5%;
+    border-radius: 1em;
+    scrollbar-color: rgba(0, 0, 0, .2) rgba(0, 0, 0, 0);
+}
+
+.pokemon_img{
+    display: flex;
+    align-self: center;
+}
+
+.pokemon_card{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    word-wrap: break-word;
+    background-color: azure;
+    border-radius: 20px;
+    height: 35vh;
+    width: 25vh;
+    padding: 1vh;
+    margin: 1vh;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
